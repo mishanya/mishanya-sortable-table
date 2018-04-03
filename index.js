@@ -10,7 +10,7 @@ class MishanyaSortableTable extends Component {
   	super(props)
     this.state =   { 
       data:      props.data ,
-      titles:    props.titles || Array(props.listedProps.length).fill('') ,
+      titles:    props.titles || Array(props.listedProps.length).fill(' ') ,
       sortedBy:  props.sortedBy,
       order:     props.order
     }
@@ -51,7 +51,7 @@ class MishanyaSortableTable extends Component {
   render() {
 
     let thead = this.props.listedProps.map((listed, index) => {    // Creates thead row from titles array
-      let  thisSorted  = this.props.sortedProps[this.props.sortedProps.indexOf(listed)]
+      let  thisSorted  = (this.props.sortedProps) ? this.props.sortedProps.find(prop => prop === listed) : ''
       return (
         <th 
           onClick   = {(e) => this.sortTable(e, !this.state.order, thisSorted)}
