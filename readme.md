@@ -4,6 +4,10 @@ A sortable easy-to-customize table npm module for React JS.
 
 ## Starting up
 
+Install this module via  NPM:
+
+`npm i mishanya-sortable-table`
+
 Include it by simply pasting 
 
 `import MishanyaSortableTable from 'mishanya-sortable-table'`
