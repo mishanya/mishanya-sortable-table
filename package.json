@@ -1,0 +1,21 @@
+
+{
+  "name": "mishanya-sortable-table",
+  "description": "A sortable table module for ReactJS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mishanya/mishanya-sortable-table.git"
+  },
+  "keywords": ["table", "sortable", "react"],
+  "author": "mishanya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mishanya/mishanya-sortable-table/issues"
+  },
+  "homepage": "https://github.com/mishanya/mishanya-sortable-table"
+}

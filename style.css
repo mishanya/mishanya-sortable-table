@@ -1,0 +1,132 @@
+.mishanya-sortable-table__wrapper{
+	text-align: center;
+}
+
+.mishanya-sortable-table__table{
+	margin-left: auto;
+	margin-right: auto;
+	border-spacing: 0;
+}
+
+.mishanya-sortable-table__th,
+.mishanya-sortable-table__td{
+	padding: 15px;
+	border: 1px solid #000;
+	border-spacing: none;
+	border-collapse: collapse;
+}
+
+.mishanya-sortable-table__tr{
+	overflow: hidden;
+}
+
+.mishanya-sortable-table__tr:nth-of-type(even) {
+	background-color: #d8d8d8; 
+	color:            #fff;
+}
+
+.mishanya-sortable-table__sortable{
+	background-color: #7b7a7a;
+	color: #fff;
+	cursor: pointer; 
+}
+
+.mishanya-sortable-table__sorted{
+	background-color: #000; 
+}
+
+.mishanya-sortable-table__arrow_up{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 5px 10px 5px;
+	border-color: transparent transparent #ffffff transparent;
+	display: inline-block;
+	margin-left: 11px;
+	margin-bottom: -1px;
+}
+
+.mishanya-sortable-table__arrow_down{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 5px 0 5px;
+	border-color:  #ffffff transparent transparent transparent;
+	display: inline-block;
+	margin-left: 11px;
+	margin-bottom: -1px;
+}
+
+.mishanya-sortable-table__animatedClass{
+  animation: mishanyaSortableTable ease-in .5s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  -webkit-animation: mishanyaSortableTable ease-in .5s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: mishanyaSortableTable ease-in .5s;
+  -moz-animation-iteration-count: 1;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: mishanyaSortableTable ease-in .5s;
+  -o-animation-iteration-count: 1;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: mishanyaSortableTable ease-in .5s;
+  -ms-animation-iteration-count: 1;
+  -ms-transform-origin: 50% 50%;
+}
+
+
+@keyframes mishanyaSortableTable{
+  0% {
+    opacity:0;
+    transform:  scaleX(0.00) scaleY(0.00) skewY(0deg) ;
+  }
+  100% {
+    opacity:1;
+    transform:  scaleX(1.00) scaleY(NaN) skewY(1deg) ;
+  }
+}
+
+@-moz-keyframes mishanyaSortableTable{
+  0% {
+    opacity:0;
+    -moz-transform:  scaleX(0.00) scaleY(0.00) skewY(0deg) ;
+  }
+  100% {
+    opacity:1;
+    -moz-transform:  scaleX(1.00) scaleY(NaN) skewY(1deg) ;
+  }
+}
+
+@-webkit-keyframes mishanyaSortableTable {
+  0% {
+    opacity:0;
+    -webkit-transform:  scaleX(0.00) scaleY(0.00) skewY(0deg) ;
+  }
+  100% {
+    opacity:1;
+    -webkit-transform:  scaleX(1.00) scaleY(NaN) skewY(1deg) ;
+  }
+}
+
+@-o-keyframes mishanyaSortableTable {
+  0% {
+    opacity:0;
+    -o-transform:  scaleX(0.00) scaleY(0.00) skewY(0deg) ;
+  }
+  100% {
+    opacity:1;
+    -o-transform:  scaleX(1.00) scaleY(NaN) skewY(1deg) ;
+  }
+}
+
+@-ms-keyframes mishanyaSortableTable {
+  0% {
+    opacity:0;
+    -ms-transform:  scaleX(0.00) scaleY(0.00) skewY(0deg) ;
+  }
+  100% {
+    opacity:1;
+    -ms-transform:  scaleX(1.00) scaleY(NaN) skewY(1deg) ;
+  }
+}
