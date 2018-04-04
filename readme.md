@@ -108,6 +108,7 @@ SOFTWARE.
 ### Repositories and issues
 
 NPM https://www.npmjs.com/package/mishanya-sortable-table
+
 Git https://github.com/mishanya/mishanya-sortable-table
 
 Got questions? Check the issues part of the repository or ask you own here:
