@@ -57,7 +57,7 @@ You can also set the prop to be the key by default and the default sorting order
 ### Props
 Properties are altogether listed below
 
-|   Property  |    Type    |  Default  |  Required  |  Desciption |
+|   Property  |    Type    |  Default  |  Required  |  Description |
 | ----------- | ---------- | ---------- | ----------- | ----------- |
 | data         | Array  | undefined  |  yes      | The array of objects to fill the table  |
 | listedProps    | Array      | undefined  |yes  |  The array of strings to create columns   |

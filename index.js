@@ -44,7 +44,7 @@ class MishanyaSortableTable extends Component {
 
   componentWillMount(){
     if (this.props.sortedBy){
-      this.sortTable(null, this.props.order, this.props.sortedBy)
+      this.sortTable(null, this.props.order, this.props.sortedBy) //Sort by default
     }
   }
 
@@ -65,7 +65,7 @@ class MishanyaSortableTable extends Component {
         </th> 
       )
     }),
-    tbody = this.state.data.map((item, index) => {
+    tbody = this.state.data.map((item, index) => {                  //Create tbody rows from state.data array
       return (
         <tr key={index} className={this.props.trClass || 'mishanya-sortable-table__tr'}>
           { 
