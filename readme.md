@@ -105,6 +105,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-### NPM repository
+### Repositories and issues
 
-https://www.npmjs.com/package/mishanya-sortable-table
+NPM https://www.npmjs.com/package/mishanya-sortable-table
+Git https://github.com/mishanya/mishanya-sortable-table
+
+Got questions? Check the issues part of the repository or ask you own here:
+
+https://github.com/mishanya/mishanya-sortable-table/issues/
