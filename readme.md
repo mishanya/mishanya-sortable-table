@@ -77,9 +77,6 @@ Properties are altogether listed below
 | tdClass       | String  | 'mishanya-sortable-table__td'  |  no   | The CSS class for the td|
 | sortableClass  | String  | 'mishanya-sortable-table__sortable'  |  no   | The CSS class for the sortable column head th |
 | sortedThClass  | String  | 'mishanya-sortable-table__sorted'  |  no   | The CSS class for the th which was clicked to sort by her prop |
-| sortableClass  | String  | 'mishanya-sortable-table__sortable'  |  no   | The CSS class for the sortable column head th |
-| sortableClass  | String  | 'mishanya-sortable-table__sortable'  |  no   | The CSS class for the sortable column head th |
-| sortableClass  | String  | 'mishanya-sortable-table__sortable'  |  no   | The CSS class for the sortable column head th |
 | sortArrowClass  | String  | 'mishanya-sortable-table__arrow'  |  no   | The sorting symbol class. Adds '_up' when order is acs and '_down' by default to your class  |
 
 ### License

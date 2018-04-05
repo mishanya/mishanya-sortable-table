@@ -30,7 +30,14 @@ class MishanyaSortableTable extends Component {
     }
     let data = this.state.data.sort((prevItem, nextItem) => {
       let [prevProp, nextProp] = [this.defineParsedProp(prevItem, prop), this.defineParsedProp(nextItem, prop)];
-      return (order) ? prevProp > nextProp : nextProp > prevProp
+      switch (typeof(prevProp)){
+        case 'string':
+          return (order) ? prevProp.localeCompare(nextProp) : nextProp.localeCompare(prevProp)
+          break
+        default:
+         return (order) ? prevProp > nextProp : nextProp > prevProp
+         break
+     }
     })
     this.setState({
       data:     data,
